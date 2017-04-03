@@ -1,19 +1,17 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+/**
+ * Created by odyssefs on 03.04.17.
+ */
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule
-  ],
+  declarations: [NgModule],
+  imports: [BrowserModule],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+
+export class AppModule{
+
+}
